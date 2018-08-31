@@ -1,0 +1,548 @@
+/*div{
+    border: solid 1px red;
+}
+*/
+
+nav{
+    background-color: white;
+}
+
+ul{
+    margin-right: 30px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+hr{
+    border: solid grey 1px;
+}
+
+.navbar{
+    background: white;
+}
+.navbar-brand{
+    margin-left: 20%;;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.nav{
+    margin-Right:20%;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: grey;
+}
+
+.jumbotron{
+    background: rgb(43, 41, 41);
+}
+
+.lead{
+    color: white;
+}
+
+.call{
+    color:white;
+}
+
+.head-img{
+    width: 100%;
+    height: 350px;
+    margin-left: 10px; 
+}
+
+.btn{
+    background: rgb(43, 41, 41);
+    border: solid white 2px;
+    
+}
+.break{
+    border: solid 2px grey;
+}
+
+.img-responsive{
+    height: 250px;
+    padding: 20px;
+}
+
+.page-footer{
+    background-color: rgb(43, 41, 41);
+}
+
+.footer-copyright{
+    color: white;
+}
+
+.footer-head{
+    color:grey;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.footer-p{
+    color: white;
+    margin-left: 30%;
+}
+
+.form-inline{
+    margin-left: 30%;
+}
+
+.follow{
+    color: grey;
+    margin-top: 20px;
+    margin-left: 50px;;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+    text-decoration: none;
+}
+
+#blog-title{
+    color: grey;
+}
+
+.footer-hr{
+    margin-left: 30%;
+}
+
+.contact-head{
+    color: grey;
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-p{
+    color:grey;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+
+.form-name{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: solid 1px grey;
+    font-size: 25px;
+    background-color: rgb(189, 185, 185);
+}
+
+.form-email{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: solid 1px grey;
+    font-size: 25px;
+    background-color: rgb(189, 185, 185);
+}
+
+.form-org{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: solid 1px grey;
+    font-size: 25px;
+    background-color: rgb(189, 185, 185);
+}
+.form-subject{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: solid 1px grey;
+    font-size: 25px;
+    background-color: rgb(189, 185, 185);
+}
+
+.form-message{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    border: solid 1px grey;
+    font-size: 25px;
+    height:200px;
+    padding: 10px;
+    background-color: rgb(189, 185, 185);
+}
+
+.about-img{
+ width: 90%;
+    
+}
+
+.mid-abt{
+    background-color:rgb(43, 41, 41);
+}
+.middle-about{
+    background-color: rgb(43, 41, 41);
+}
+
+.about-h{
+    color: white;
+    padding-top: 20px;
+}
+
+.about-p{
+    color:rgb(146, 145, 145);
+}
+
+.about-p-b{
+    color:rgb(146, 145, 145);
+    padding-bottom: 20px;
+}
+
+.middle-img{
+    height: 475px;
+}
+
+.bottom-b{
+    background-color: rgba(37, 141, 211, 0.698);
+    height: 150px;
+}
+
+.btn-about{
+    width: 30%;
+    margin-top: 3.5%;
+    margin-left: 30%;
+    padding: 20px;
+}
+
+.about-h1{
+    margin-top: 50px;
+    color: grey;
+    margin-left: 28%;
+}
+
+.abt-p{
+    color: grey;
+    margin-top: 10px;
+    margin-left: 28%;
+    font-size: 18px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .round{
+        margin-right: 0%;
+        justify-content: center;
+    }
+    .nav{
+       margin-left: 12%;
+       margin-right: 0px;
+    }
+
+    .call{
+        text-align: center;
+    }
+    
+    .lead{
+        text-align: center;
+    }
+    .btn1{
+        margin-left: 30%;
+    }
+    .head-img{
+        padding-right: 5%;  
+    }
+    .footer-head{
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .footer-hr{
+        margin-left: 0%;
+    }
+
+    .footer-p{
+        margin-left:0%;
+        text-align: center;
+    }
+
+    .form-inline{
+        margin-left: 10%;
+    }
+
+    .btn2{
+        margin-left: 23%;
+    }
+
+    .media{
+       margin-left: 8%;
+      }
+
+    #blog-title{
+        text-align: center;
+    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar-brand{
+        margin-left:30%;
+        margin-right:0%;
+        }
+
+    .nav{
+        margin-right:0%;
+        margin-left: 20%;
+    }
+
+    .call{
+        text-align: center;
+    }
+
+    .lead{
+        text-align: center;
+    }
+
+    .btn1{
+        margin-left: 30%;
+    }
+
+    #blog-title{
+        text-align: center;
+    }
+
+    .footer-head{
+        text-align: center;
+        margin-left:0%;
+    }
+
+    .footer-hr{
+        margin-left: 0%;
+    }
+
+    .footer-p{
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .form-inline{
+        margin-left: 6%;
+    }
+
+    .media{
+        margin-left: 20%;
+    }
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar-brand{
+        margin-left:40%;
+        margin-right:0%;
+        }
+
+    .nav{
+        margin-right:0%;
+        margin-left: 30%;
+    }
+
+    .call{
+        text-align: center;
+        
+    }
+
+    .lead{
+        text-align: center;
+    }
+
+    .btn1{
+        margin-left: 30%;
+    }
+
+    .head-img{
+        width:300px;
+        margin-top: 80px;
+    }
+
+    .img-responsive{
+        width: 200px;   
+    }
+    #blog-title{
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .footer-head{
+        text-align: center;
+        }
+
+    .footer-hr{
+        margin-left: 0%;
+    }
+
+    .footer-p{
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .form-inline{
+        margin-left: 18%;
+    }
+
+    .media{
+        margin-left: 25%;
+    }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar-brand{
+        margin-left:40%;
+        margin-right:0%;
+        }
+
+    .nav{
+        margin-right:0%;
+        margin-left: 30%;
+    }
+
+    .call{
+        text-align: left;
+        
+    }
+
+    .lead{
+        text-align: left;
+    }
+
+    .btn1{
+        margin-left: 0%;
+    }
+
+    .head-img{
+        width:350px;
+        margin-top: 0%;
+    }
+
+    .img-responsive{
+        width: 250px;   
+    }
+    #blog-title{
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .footer-head{
+        text-align: left;
+        }
+
+    .footer-hr{
+        margin-left: 0%;
+    }
+
+    .footer-p{
+        text-align: left;
+        margin-left: 0%;
+    }
+
+    .form-inline{
+        margin-left: 0%;
+    }
+    
+    .follow{
+        font-size: 20px;
+    }
+
+    .media{
+        margin:0%;
+       
+    }
+
+    .fa{
+        font-size: 20px;
+    }
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar-brand{
+        margin-left:20%;
+        margin-right:0%;
+        }
+
+    .nav{
+        margin-right:20%;
+        margin-left: 0%;
+    }
+
+    .call{
+        text-align: left;
+        
+    }
+
+    .lead{
+        text-align: left;
+    }
+
+    .btn1{
+        margin-left: 0%;
+    }
+
+    .head-img{
+        width:350px;
+        margin-top: 0%;
+    }
+
+    .img-responsive{
+        width: 300px;   
+    }
+    #blog-title{
+        text-align: left;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .footer-head{
+        text-align: left;
+        margin-left:30%;
+        }
+
+    .footer-hr{
+        margin-left: 30%;
+    }
+
+    .footer-p{
+        text-align: left;
+        margin-left: 30%;
+    }
+
+    .form-inline{
+        margin-left: 30%;
+    }
+    
+    .follow{
+        font-size: 30px;
+    }
+
+    
+    .fa{
+        font-size: 30px;
+    }
+}
